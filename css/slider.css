@@ -1,0 +1,71 @@
+body {
+  background-image: url(../images/concrete_seamless.png);
+  width: 90%;
+  margin: auto;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+#toolbar-toggle {
+  text-decoration: none;
+  color: #3c9db6;
+}
+
+.toolbar {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.toolbar button {
+  background-color: whitesmoke;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border: gray 1px solid;
+}
+
+.toolbar a {
+  text-decoration: none;
+}
+
+.toolbar-list li {
+  margin-left: 10px; /* Ajoute une marge à gauche pour l'esthétique */
+}
+
+.slider {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  margin-top: 20px; /* Ajoute un espace entre la barre d'outils et le carrousel */
+  transform: rotate(-3deg);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.slider-item {
+  display: none;
+  text-align: center;
+  position: relative;
+  color: #2a8782;
+  font-size: 2em;
+}
+
+.slider-item:first-child {
+  display: block;
+}
+
+.image-container {
+  padding: 15px;
+  height: 390px;
+  background-color: #fff;
+  border: 2px solid black; /* Contour blanc */
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
